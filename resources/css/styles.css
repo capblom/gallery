@@ -2,7 +2,19 @@
 
 html {
   font-family: 'EB Garamond', serif;
-  color: blue;
+  background-color: white;
+  color: white;
+  font-size: 18px;
+}
+
+h1 {
+  font-size: 4rem;
+}
+
+h2 {
+  font-size: 1.4rem;
+  background-color: rgb(44, 82, 52, 0.6);
+  padding: 10px;
 }
 
 a {
@@ -23,4 +35,162 @@ a:hover {
 
 a:active {
   color: white;
+}
+
+/* containers */
+
+.site-container {
+  width: 80%;
+  margin: auto;
+  /* background-color: chartreuse; */
+}
+
+.navbar-container {
+  width: 100%;
+  height: 120px;
+  /* background-color: red; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.banner-container {
+  width: 100%;
+  height: 800px;
+  background-image: url(./../images/pashley-main.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: lightskyblue;
+  display: flex;
+  justify-content:space-between;
+}
+
+.gallery-links-container {
+  width: 100%;
+  height: 600px;
+  background-color: gainsboro;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.footer-container {
+  width: 100%;
+  height: 40px;
+  background-color: rgb(44, 82, 52);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* navbar */
+
+.navbar-container span {
+  width:40%;
+  height: auto;
+}
+
+.navbar-container span img {
+  width: 80%;
+  height: auto;
+}
+
+.navbar-container ul {
+  width: 60%;
+  height: 100px;
+  /* background-color: plum; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar-container li {
+  width: 30%;
+  background-color: rgb(44, 82, 52);
+  /* border: solid 3px rgb(44, 82, 52);
+  border-radius: 10px; */
+  text-align: center;
+  font-size: 1.2rem;
+  padding: 10px 0;
+}
+
+/* banner */
+
+.banner-container span {
+  background-color: rgb(44, 82, 52, 0.6);
+  align-self: flex-end;
+  justify-content: flex-end;
+  padding: 24px;
+  font-style: italic;
+}
+
+.banner-container h1 {
+  background-color: rgb(255, 20, 147, 0.6);
+  width: 30%;
+  align-self: center;
+  justify-content: flex-end;
+  padding: 24px;
+}
+
+/* gallery links */
+
+.show-garden {
+  background-color: thistle;
+  display: flex;
+  align-items:flex-end;
+  justify-content: center;
+  padding-bottom: 4px;
+  height: 40%;
+  width: 20%;
+}
+
+#pashley-thumb {
+  background-image: url(./../images/pashley-thumb.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#morton-thumb {
+  background-image: url(./../images/morton-thumb.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#glenarm-thumb {
+  background-image: url(./../images/glenarm-thumb.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#cb-thumb {
+  background-image: url(./../images/cb-thumb.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.show-garden h2 {
+  text-align: center;
+}
+
+.customer {
+  background-image: url(./../images/customer-thumb.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: thistle;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  padding-bottom: 4px;
+  width: 80%;
+  height: 40%;
+}
+
+.customer h1 {
+  background-color: rgb(44, 82, 52, 0.6);
+  padding: 10px;
+}
+
+.footer-container span {
+  margin: 20px;
 }
